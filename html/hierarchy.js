@@ -53,6 +53,7 @@ var hierarchy =
         [ "S3D::ImplicitBody", "class_s3_d_1_1_implicit_body.html", [
           [ "S3D::ImplicitArrayBody", "class_s3_d_1_1_implicit_array_body.html", null ],
           [ "S3D::ImplicitBox", "class_s3_d_1_1_implicit_box.html", null ],
+          [ "S3D::ImplicitCone", "class_s3_d_1_1_implicit_cone.html", null ],
           [ "S3D::ImplicitCylinder", "class_s3_d_1_1_implicit_cylinder.html", null ],
           [ "S3D::ImplicitExtrudeProfile", "class_s3_d_1_1_implicit_extrude_profile.html", null ],
           [ "S3D::ImplicitIntersect", "class_s3_d_1_1_implicit_intersect.html", null ],
@@ -60,11 +61,13 @@ var hierarchy =
             [ "S3D::ImplicitCylVolLattice", "class_s3_d_1_1_implicit_cyl_vol_lattice.html", null ],
             [ "S3D::ImplicitRectVolLattice", "class_s3_d_1_1_implicit_rect_vol_lattice.html", null ]
           ] ],
+          [ "S3D::ImplicitOffsetBody", "class_s3_d_1_1_implicit_offset_body.html", null ],
           [ "S3D::ImplicitRevolve", "class_s3_d_1_1_implicit_revolve.html", null ],
           [ "S3D::ImplicitSetBoundingBox", "class_s3_d_1_1_implicit_set_bounding_box.html", null ],
           [ "S3D::ImplicitSphere", "class_s3_d_1_1_implicit_sphere.html", null ],
           [ "S3D::ImplicitSubtract", "class_s3_d_1_1_implicit_subtract.html", null ],
           [ "S3D::ImplicitThickenBody", "class_s3_d_1_1_implicit_thicken_body.html", null ],
+          [ "S3D::ImplicitTorus", "class_s3_d_1_1_implicit_torus.html", null ],
           [ "S3D::ImplicitTranslate", "class_s3_d_1_1_implicit_translate.html", null ],
           [ "S3D::ImplicitUnion", "class_s3_d_1_1_implicit_union.html", null ],
           [ "S3D::ImplicitUnitCells", "class_s3_d_1_1_implicit_unit_cells.html", [
@@ -77,6 +80,7 @@ var hierarchy =
         [ "S3D::ImplicitPlane", "class_s3_d_1_1_implicit_plane.html", null ],
         [ "S3D::ImplicitProfile", "class_s3_d_1_1_implicit_profile.html", [
           [ "S3D::ImplicitCircle", "class_s3_d_1_1_implicit_circle.html", null ],
+          [ "S3D::ImplicitProfileFromCurves", "class_s3_d_1_1_implicit_profile_from_curves.html", null ],
           [ "S3D::ImplicitRectangle", "class_s3_d_1_1_implicit_rectangle.html", null ],
           [ "S3D::ImplicitRegularPolygon", "class_s3_d_1_1_implicit_regular_polygon.html", null ]
         ] ],

@@ -4,6 +4,7 @@ var class_s3_d_1_1_axis3_d =
     [ "_Init", "class_s3_d_1_1_axis3_d.html#a358d515592f9981807c318615fa89f2e", null ],
     [ "DeepClone", "class_s3_d_1_1_axis3_d.html#a721423e4a5df2b96b3378a2952eabe59", null ],
     [ "EvalPoint3D", "class_s3_d_1_1_axis3_d.html#a05d7849ff5423da09f9559631ff47393", null ],
+    [ "EvalPointUV", "class_s3_d_1_1_axis3_d.html#affefd41d78b313860594f8ca8a986575", null ],
     [ "FromJsonString", "class_s3_d_1_1_axis3_d.html#a6a916ae3217b76e2a3adc4144a2d1035", null ],
     [ "GetAxis", "class_s3_d_1_1_axis3_d.html#a9450d18e7a63fb61b183e9314f3b5a1c", null ],
     [ "GetEntityType", "class_s3_d_1_1_axis3_d.html#ac479d3055a35940dda6e90314a72caa1", null ],
