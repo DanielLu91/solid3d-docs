@@ -23,7 +23,7 @@
     
     
       
-        <title>Implicit Profile From Curves - Solid3D SDK Documentation</title>
+        <title>Implicit Profile From Contour - Solid3D SDK Documentation</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#implicitprofilefromcurves" class="md-skip">
+        <a href="#implicitprofilefromcontour" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Implicit Profile From Curves
+              Implicit Profile From Contour
             
           </span>
         </div>
@@ -659,7 +659,7 @@
   <span class="md-ellipsis">
     
   
-    Implicit Profile From Curves
+    Implicit Profile From Contour
   
 
     
@@ -677,7 +677,7 @@
   <span class="md-ellipsis">
     
   
-    Implicit Profile From Curves
+    Implicit Profile From Contour
   
 
     
@@ -1860,12 +1860,12 @@
 
 
 
-<h1 id="implicitprofilefromcurves">ImplicitProfileFromCurves</h1>
+<h1 id="implicitprofilefromcontour">ImplicitProfileFromContour</h1>
 <p>An implicit 2D profile constructed from a <code>Contour2D</code>. The profile defines a signed distance field on a plane and can be used as input to operations such as <a href="../../../Modeling/Operations/implicit_extrude_profile/"><code>ImplicitExtrudeProfile</code></a>.</p>
 <h2 id="create">Create</h2>
-<pre><code class="language-cpp">static ResultStatusEnum Create(const Contour2D*           contour,
-                               const Axis3D&amp;              plane,
-                               ImplicitProfileFromCurves&amp; profile);
+<pre><code class="language-cpp">static ResultStatusEnum Create(const Contour2D*              contour,
+                               const Axis3D&amp;                 plane,
+                               ImplicitProfileFromContour&amp; profile);
 </code></pre>
 <h3 id="parameters">Parameters</h3>
 <table>
@@ -1882,7 +1882,7 @@
 <td><code>contour</code></td>
 <td>in</td>
 <td><code>const Contour2D*</code></td>
-<td>Input contour. Must not be <code>nullptr</code>. Must be closed and CCW. Open contours are rejected.</td>
+<td>Input contour. Must not be <code>nullptr</code>. If it is closed, it must be CCW.</td>
 </tr>
 <tr>
 <td><code>plane</code></td>
@@ -1893,45 +1893,45 @@
 <tr>
 <td><code>profile</code></td>
 <td>out</td>
-<td><a href="#implicitprofilefromcurves"><code>ImplicitProfileFromCurves</code></a><code>&amp;</code></td>
+<td><a href="#implicitprofilefromcontour"><code>ImplicitProfileFromContour</code></a><code>&amp;</code></td>
 <td>The profile object to initialize.</td>
 </tr>
 </tbody>
 </table>
 <h3 id="example">Example</h3>
-<p><img alt="ImplicitProfileFromCurves" src="../implicit_profile_from_curves.png" /></p>
+<p><img alt="ImplicitProfileFromContour" src="../implicit_profile_from_contour.png" /></p>
 <pre><code class="language-cpp">#include &quot;axis3d.h&quot;
 #include &quot;bspline2d.h&quot;
 #include &quot;contour2d.h&quot;
-#include &quot;implicit_profile_from_curves.h&quot;
+#include &quot;implicit_profile_from_contour.h&quot;
 #include &quot;point2d.h&quot;
 
 #include &lt;vector&gt;
 
 S3D::BSpline2D* bspline0 = S3D::BSpline2D::New();
 std::vector&lt;S3D::Point2D&gt; topPoints = {
-    {0.0, 0.0},
-    {1.0, 1.0},
-    {2.0, 1.0},
     {3.0, 0.0},
+    {2.0, 1.0},
+    {1.0, 1.0},
+    {0.0, 0.0},
 };
 S3D::BSpline2D::CreateInterpolation(3, topPoints, {}, {}, false, *bspline0);
 
 S3D::BSpline2D* bspline1 = S3D::BSpline2D::New();
 std::vector&lt;S3D::Point2D&gt; bottomPoints = {
-    {3.0, 0.0},
-    {2.0, -1.0},
-    {1.0, -1.0},
     {0.0, 0.0},
+    {1.0, -1.0},
+    {2.0, -1.0},
+    {3.0, 0.0},
 };
 S3D::BSpline2D::CreateInterpolation(3, bottomPoints, {}, {}, false, *bspline1);
 
 S3D::Contour2D* contour = S3D::Contour2D::New();
 S3D::Contour2D::Create({bspline0, bspline1}, *contour);
 
-S3D::ImplicitProfileFromCurves* profile = S3D::ImplicitProfileFromCurves::New();
+S3D::ImplicitProfileFromContour* profile = S3D::ImplicitProfileFromContour::New();
 S3D::Axis3D                     axis;
-S3D::ImplicitProfileFromCurves::Create(contour, axis, *profile);
+S3D::ImplicitProfileFromContour::Create(contour, axis, *profile);
 </code></pre>
 
 

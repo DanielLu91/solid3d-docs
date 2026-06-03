@@ -48,6 +48,7 @@ var result__status__enum_8h =
       [ "S3D::ResultStatusEnum::RS_Array_Not_Ascending", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3a55cab1d1dfa04a4e94a74fa1f7ec4b77", null ],
       [ "S3D::ResultStatusEnum::RS_Bad_Depth", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3a975f1dbfcfeff6ef8b7b274608fbaa96", null ],
       [ "S3D::ResultStatusEnum::RS_Bad_Contour", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3a6eed0f6cf3a0d6db92f1c79452f80435", null ],
+      [ "S3D::ResultStatusEnum::RS_Empty_Contour", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3aa4c79b52e0141d95d9e81b05b1a63c0c", null ],
       [ "S3D::ResultStatusEnum::RS_Bad_Domain", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3a004ca72a046fcb8f36073be00c29e514", null ],
       [ "S3D::ResultStatusEnum::RS_Bad_Nb_Sides", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3ac0f6a0a61d3c378df91815d4c9652531", null ],
       [ "S3D::ResultStatusEnum::RS_Entities_Not_Touching", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3ab831b5806787092ae247da9eff43cc62", null ],

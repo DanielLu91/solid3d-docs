@@ -61,7 +61,7 @@ var dir_d44c64559bbebec7f509842c48db8b23 =
     [ "implicit_offset_body.h", "implicit__offset__body_8h.html", "implicit__offset__body_8h" ],
     [ "implicit_plane.h", "implicit__plane_8h.html", "implicit__plane_8h" ],
     [ "implicit_profile.h", "implicit__profile_8h.html", "implicit__profile_8h" ],
-    [ "implicit_profile_from_curves.h", "implicit__profile__from__curves_8h.html", "implicit__profile__from__curves_8h" ],
+    [ "implicit_profile_from_contour.h", "implicit__profile__from__contour_8h.html", "implicit__profile__from__contour_8h" ],
     [ "implicit_ramp.h", "implicit__ramp_8h.html", "implicit__ramp_8h" ],
     [ "implicit_rect_vol_lattice.h", "implicit__rect__vol__lattice_8h.html", "implicit__rect__vol__lattice_8h" ],
     [ "implicit_rectangle.h", "implicit__rectangle_8h.html", "implicit__rectangle_8h" ],

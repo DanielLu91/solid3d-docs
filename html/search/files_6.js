@@ -16,7 +16,7 @@ var searchData=
   ['implicit_5foffset_5fbody_2eh_13',['implicit_offset_body.h',['../implicit__offset__body_8h.html',1,'']]],
   ['implicit_5fplane_2eh_14',['implicit_plane.h',['../implicit__plane_8h.html',1,'']]],
   ['implicit_5fprofile_2eh_15',['implicit_profile.h',['../implicit__profile_8h.html',1,'']]],
-  ['implicit_5fprofile_5ffrom_5fcurves_2eh_16',['implicit_profile_from_curves.h',['../implicit__profile__from__curves_8h.html',1,'']]],
+  ['implicit_5fprofile_5ffrom_5fcontour_2eh_16',['implicit_profile_from_contour.h',['../implicit__profile__from__contour_8h.html',1,'']]],
   ['implicit_5framp_2eh_17',['implicit_ramp.h',['../implicit__ramp_8h.html',1,'']]],
   ['implicit_5frect_5fvol_5flattice_2eh_18',['implicit_rect_vol_lattice.h',['../implicit__rect__vol__lattice_8h.html',1,'']]],
   ['implicit_5frectangle_2eh_19',['implicit_rectangle.h',['../implicit__rectangle_8h.html',1,'']]],

@@ -141,6 +141,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a41616a527607a4b52486b2e63c1868bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56b89163ca90e13312d9dd5c898bccea" id="r_a56b89163ca90e13312d9dd5c898bccea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s3_d_1_1_implicit_circle.html">ImplicitCircle</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56b89163ca90e13312d9dd5c898bccea">DeepClone</a> (std::unordered_map&lt; <a class="el" href="class_s3_d_1_1_entity.html">Entity</a> *, <a class="el" href="class_s3_d_1_1_entity.html">Entity</a> * &gt; *trackMap=nullptr) const override</td></tr>
 <tr class="separator:a56b89163ca90e13312d9dd5c898bccea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_s3_d_1_1_implicit_scalar_field"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_s3_d_1_1_implicit_scalar_field')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_s3_d_1_1_implicit_scalar_field.html">S3D::ImplicitScalarField</a></td></tr>
+<tr class="memitem:a2d439aad3dfaac6a0e6575dcdb6511f5 inherit pub_methods_class_s3_d_1_1_implicit_scalar_field" id="r_a2d439aad3dfaac6a0e6575dcdb6511f5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s3_d_1_1_implicit_scalar_field.html#a2d439aad3dfaac6a0e6575dcdb6511f5">IsImplicit</a> () const override</td></tr>
+<tr class="separator:a2d439aad3dfaac6a0e6575dcdb6511f5 inherit pub_methods_class_s3_d_1_1_implicit_scalar_field"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_s3_d_1_1_entity"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_s3_d_1_1_entity')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_s3_d_1_1_entity.html">S3D::Entity</a></td></tr>
 <tr class="memitem:a2c08a772fb12fa130ea3dc3183577e2c inherit pub_methods_class_s3_d_1_1_entity" id="r_a2c08a772fb12fa130ea3dc3183577e2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s3_d_1_1_entity.html#a2c08a772fb12fa130ea3dc3183577e2c">Entity</a> ()</td></tr>
 <tr class="separator:a2c08a772fb12fa130ea3dc3183577e2c inherit pub_methods_class_s3_d_1_1_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,9 +254,13 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>RS_Success <br  />
- RS_Radius_LE_0 <br  />
-</dd></dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">RS_Success</td><td>Circle created successfully. </td></tr>
+    <tr><td class="paramname">RS_Radius_LE_0</td><td>The <code>radius</code> is not positive. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

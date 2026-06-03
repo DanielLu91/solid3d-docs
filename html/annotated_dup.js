@@ -62,7 +62,7 @@ var annotated_dup =
       [ "ImplicitOffsetBody", "class_s3_d_1_1_implicit_offset_body.html", "class_s3_d_1_1_implicit_offset_body" ],
       [ "ImplicitPlane", "class_s3_d_1_1_implicit_plane.html", "class_s3_d_1_1_implicit_plane" ],
       [ "ImplicitProfile", "class_s3_d_1_1_implicit_profile.html", "class_s3_d_1_1_implicit_profile" ],
-      [ "ImplicitProfileFromCurves", "class_s3_d_1_1_implicit_profile_from_curves.html", "class_s3_d_1_1_implicit_profile_from_curves" ],
+      [ "ImplicitProfileFromContour", "class_s3_d_1_1_implicit_profile_from_contour.html", "class_s3_d_1_1_implicit_profile_from_contour" ],
       [ "ImplicitRamp", "class_s3_d_1_1_implicit_ramp.html", "class_s3_d_1_1_implicit_ramp" ],
       [ "ImplicitRectangle", "class_s3_d_1_1_implicit_rectangle.html", "class_s3_d_1_1_implicit_rectangle" ],
       [ "ImplicitRectVolLattice", "class_s3_d_1_1_implicit_rect_vol_lattice.html", "class_s3_d_1_1_implicit_rect_vol_lattice" ],

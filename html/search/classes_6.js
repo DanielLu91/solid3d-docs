@@ -16,7 +16,7 @@ var searchData=
   ['implicitoffsetbody_13',['ImplicitOffsetBody',['../class_s3_d_1_1_implicit_offset_body.html',1,'S3D']]],
   ['implicitplane_14',['ImplicitPlane',['../class_s3_d_1_1_implicit_plane.html',1,'S3D']]],
   ['implicitprofile_15',['ImplicitProfile',['../class_s3_d_1_1_implicit_profile.html',1,'S3D']]],
-  ['implicitprofilefromcurves_16',['ImplicitProfileFromCurves',['../class_s3_d_1_1_implicit_profile_from_curves.html',1,'S3D']]],
+  ['implicitprofilefromcontour_16',['ImplicitProfileFromContour',['../class_s3_d_1_1_implicit_profile_from_contour.html',1,'S3D']]],
   ['implicitramp_17',['ImplicitRamp',['../class_s3_d_1_1_implicit_ramp.html',1,'S3D']]],
   ['implicitrectangle_18',['ImplicitRectangle',['../class_s3_d_1_1_implicit_rectangle.html',1,'S3D']]],
   ['implicitrectvollattice_19',['ImplicitRectVolLattice',['../class_s3_d_1_1_implicit_rect_vol_lattice.html',1,'S3D']]],

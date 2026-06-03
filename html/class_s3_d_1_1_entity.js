@@ -16,6 +16,7 @@ var class_s3_d_1_1_entity =
     [ "GetNbReferences", "class_s3_d_1_1_entity.html#aaf7486bc2759662a0ee32d8833f0ded2", null ],
     [ "GetReferences", "class_s3_d_1_1_entity.html#a6d1ee8979462e1a7ec152925e4000a4c", null ],
     [ "IsGeom", "class_s3_d_1_1_entity.html#a6c7f322e92ffb53149076de774f4dcc4", null ],
+    [ "IsImplicit", "class_s3_d_1_1_entity.html#ad3091f336d7a07a31f5dbb9e48a0616d", null ],
     [ "operator delete", "class_s3_d_1_1_entity.html#afa38ebf64cf2ae5859b6ace3846f6d35", null ],
     [ "operator delete[]", "class_s3_d_1_1_entity.html#a6dc3e7be6c510ea6f793115b956385eb", null ],
     [ "operator new", "class_s3_d_1_1_entity.html#ac2cdf806134814da5af92bbae24c837f", null ],

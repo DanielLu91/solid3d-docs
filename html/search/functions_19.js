@@ -4,6 +4,6 @@ var searchData=
   ['_7eattribute_1',['~Attribute',['../class_s3_d_1_1_attribute.html#a20a0fc029b7c73f3beea571f93a3f83e',1,'S3D::Attribute']]],
   ['_7eentity_2',['~Entity',['../class_s3_d_1_1_entity.html#a8e435411b15b8a77710edc4317178858',1,'S3D::Entity']]],
   ['_7eimplicitexpressionfield_3',['~ImplicitExpressionField',['../class_s3_d_1_1_implicit_expression_field.html#a81f78add469b77f5bbb0e88a514d7696',1,'S3D::ImplicitExpressionField']]],
-  ['_7eimplicitprofilefromcurves_4',['~ImplicitProfileFromCurves',['../class_s3_d_1_1_implicit_profile_from_curves.html#a0d1bf1aeb7a4ad6a3e624ba5659dcb93',1,'S3D::ImplicitProfileFromCurves']]],
+  ['_7eimplicitprofilefromcontour_4',['~ImplicitProfileFromContour',['../class_s3_d_1_1_implicit_profile_from_contour.html#acde1d27c365acfb2239261ec3e5d8786',1,'S3D::ImplicitProfileFromContour']]],
   ['_7esurfacemesh_5',['~SurfaceMesh',['../class_s3_d_1_1_surface_mesh.html#a15ddc845f65fc05a9b9e969423efd2af',1,'S3D::SurfaceMesh']]]
 ];

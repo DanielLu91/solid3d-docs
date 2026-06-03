@@ -80,7 +80,7 @@ var hierarchy =
         [ "S3D::ImplicitPlane", "class_s3_d_1_1_implicit_plane.html", null ],
         [ "S3D::ImplicitProfile", "class_s3_d_1_1_implicit_profile.html", [
           [ "S3D::ImplicitCircle", "class_s3_d_1_1_implicit_circle.html", null ],
-          [ "S3D::ImplicitProfileFromCurves", "class_s3_d_1_1_implicit_profile_from_curves.html", null ],
+          [ "S3D::ImplicitProfileFromContour", "class_s3_d_1_1_implicit_profile_from_contour.html", null ],
           [ "S3D::ImplicitRectangle", "class_s3_d_1_1_implicit_rectangle.html", null ],
           [ "S3D::ImplicitRegularPolygon", "class_s3_d_1_1_implicit_regular_polygon.html", null ]
         ] ],
