@@ -51,6 +51,7 @@ var result__status__enum_8h =
       [ "S3D::ResultStatusEnum::RS_Empty_Contour", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3aa4c79b52e0141d95d9e81b05b1a63c0c", null ],
       [ "S3D::ResultStatusEnum::RS_Bad_Domain", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3a004ca72a046fcb8f36073be00c29e514", null ],
       [ "S3D::ResultStatusEnum::RS_Bad_Nb_Sides", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3ac0f6a0a61d3c378df91815d4c9652531", null ],
+      [ "S3D::ResultStatusEnum::RS_Bad_Count", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3aef7bceec072db0250fdfe89ce429afca", null ],
       [ "S3D::ResultStatusEnum::RS_Entities_Not_Touching", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3ab831b5806787092ae247da9eff43cc62", null ],
       [ "S3D::ResultStatusEnum::RS_Internal_Error", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3a81d8fc65a2af4a9f6d41c71aaf531842", null ],
       [ "S3D::ResultStatusEnum::RS_Invalid_Object", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3ab49e5b84cd4dfb01f8744e16197b4351", null ]

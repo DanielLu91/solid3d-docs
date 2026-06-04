@@ -62,6 +62,7 @@ var hierarchy =
             [ "S3D::ImplicitRectVolLattice", "class_s3_d_1_1_implicit_rect_vol_lattice.html", null ]
           ] ],
           [ "S3D::ImplicitOffsetBody", "class_s3_d_1_1_implicit_offset_body.html", null ],
+          [ "S3D::ImplicitPolarArrayBody", "class_s3_d_1_1_implicit_polar_array_body.html", null ],
           [ "S3D::ImplicitRevolve", "class_s3_d_1_1_implicit_revolve.html", null ],
           [ "S3D::ImplicitSetBoundingBox", "class_s3_d_1_1_implicit_set_bounding_box.html", null ],
           [ "S3D::ImplicitSphere", "class_s3_d_1_1_implicit_sphere.html", null ],
@@ -69,6 +70,7 @@ var hierarchy =
           [ "S3D::ImplicitThickenBody", "class_s3_d_1_1_implicit_thicken_body.html", null ],
           [ "S3D::ImplicitTorus", "class_s3_d_1_1_implicit_torus.html", null ],
           [ "S3D::ImplicitTranslate", "class_s3_d_1_1_implicit_translate.html", null ],
+          [ "S3D::ImplicitTwist", "class_s3_d_1_1_implicit_twist.html", null ],
           [ "S3D::ImplicitUnion", "class_s3_d_1_1_implicit_union.html", null ],
           [ "S3D::ImplicitUnitCells", "class_s3_d_1_1_implicit_unit_cells.html", [
             [ "S3D::ImplicitTPMSUnitCell", "class_s3_d_1_1_implicit_t_p_m_s_unit_cell.html", null ]

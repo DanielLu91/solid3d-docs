@@ -60,6 +60,7 @@ var namespace_s3_d =
     [ "ImplicitMix", "class_s3_d_1_1_implicit_mix.html", "class_s3_d_1_1_implicit_mix" ],
     [ "ImplicitOffsetBody", "class_s3_d_1_1_implicit_offset_body.html", "class_s3_d_1_1_implicit_offset_body" ],
     [ "ImplicitPlane", "class_s3_d_1_1_implicit_plane.html", "class_s3_d_1_1_implicit_plane" ],
+    [ "ImplicitPolarArrayBody", "class_s3_d_1_1_implicit_polar_array_body.html", "class_s3_d_1_1_implicit_polar_array_body" ],
     [ "ImplicitProfile", "class_s3_d_1_1_implicit_profile.html", "class_s3_d_1_1_implicit_profile" ],
     [ "ImplicitProfileFromContour", "class_s3_d_1_1_implicit_profile_from_contour.html", "class_s3_d_1_1_implicit_profile_from_contour" ],
     [ "ImplicitRamp", "class_s3_d_1_1_implicit_ramp.html", "class_s3_d_1_1_implicit_ramp" ],
@@ -75,6 +76,7 @@ var namespace_s3_d =
     [ "ImplicitTorus", "class_s3_d_1_1_implicit_torus.html", "class_s3_d_1_1_implicit_torus" ],
     [ "ImplicitTPMSUnitCell", "class_s3_d_1_1_implicit_t_p_m_s_unit_cell.html", "class_s3_d_1_1_implicit_t_p_m_s_unit_cell" ],
     [ "ImplicitTranslate", "class_s3_d_1_1_implicit_translate.html", "class_s3_d_1_1_implicit_translate" ],
+    [ "ImplicitTwist", "class_s3_d_1_1_implicit_twist.html", "class_s3_d_1_1_implicit_twist" ],
     [ "ImplicitUnion", "class_s3_d_1_1_implicit_union.html", "class_s3_d_1_1_implicit_union" ],
     [ "ImplicitUnitCells", "class_s3_d_1_1_implicit_unit_cells.html", null ],
     [ "Line2D", "class_s3_d_1_1_line2_d.html", "class_s3_d_1_1_line2_d" ],
@@ -232,6 +234,7 @@ var namespace_s3_d =
       [ "RS_Empty_Contour", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3aa4c79b52e0141d95d9e81b05b1a63c0c", null ],
       [ "RS_Bad_Domain", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3a004ca72a046fcb8f36073be00c29e514", null ],
       [ "RS_Bad_Nb_Sides", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3ac0f6a0a61d3c378df91815d4c9652531", null ],
+      [ "RS_Bad_Count", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3aef7bceec072db0250fdfe89ce429afca", null ],
       [ "RS_Entities_Not_Touching", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3ab831b5806787092ae247da9eff43cc62", null ],
       [ "RS_Internal_Error", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3a81d8fc65a2af4a9f6d41c71aaf531842", null ],
       [ "RS_Invalid_Object", "namespace_s3_d.html#a6858b1c89eaa1c25160695e514cc1bf3ab49e5b84cd4dfb01f8744e16197b4351", null ]

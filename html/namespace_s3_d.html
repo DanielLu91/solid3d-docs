@@ -233,6 +233,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s3_d_1_1_implicit_plane.html">ImplicitPlane</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s3_d_1_1_implicit_polar_array_body.html">ImplicitPolarArrayBody</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s3_d_1_1_implicit_profile.html">ImplicitProfile</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s3_d_1_1_implicit_profile_from_contour.html">ImplicitProfileFromContour</a></td></tr>
@@ -262,6 +264,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s3_d_1_1_implicit_t_p_m_s_unit_cell.html">ImplicitTPMSUnitCell</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s3_d_1_1_implicit_translate.html">ImplicitTranslate</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s3_d_1_1_implicit_twist.html">ImplicitTwist</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s3_d_1_1_implicit_union.html">ImplicitUnion</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -486,10 +490,11 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="#a6858b1c89eaa1c25160695e514cc1bf3a004ca72a046fcb8f36073be00c29e514">RS_Bad_Domain</a>
 , <a class="el" href="#a6858b1c89eaa1c25160695e514cc1bf3ac0f6a0a61d3c378df91815d4c9652531">RS_Bad_Nb_Sides</a>
+, <a class="el" href="#a6858b1c89eaa1c25160695e514cc1bf3aef7bceec072db0250fdfe89ce429afca">RS_Bad_Count</a>
 , <a class="el" href="#a6858b1c89eaa1c25160695e514cc1bf3ab831b5806787092ae247da9eff43cc62">RS_Entities_Not_Touching</a>
-, <a class="el" href="#a6858b1c89eaa1c25160695e514cc1bf3a81d8fc65a2af4a9f6d41c71aaf531842">RS_Internal_Error</a>
 , <br />
-&#160;&#160;<a class="el" href="#a6858b1c89eaa1c25160695e514cc1bf3ab49e5b84cd4dfb01f8744e16197b4351">RS_Invalid_Object</a> = 9999
+&#160;&#160;<a class="el" href="#a6858b1c89eaa1c25160695e514cc1bf3a81d8fc65a2af4a9f6d41c71aaf531842">RS_Internal_Error</a>
+, <a class="el" href="#a6858b1c89eaa1c25160695e514cc1bf3ab49e5b84cd4dfb01f8744e16197b4351">RS_Invalid_Object</a> = 9999
 <br />
  }</td></tr>
 <tr class="separator:a6858b1c89eaa1c25160695e514cc1bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -914,6 +919,7 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a6858b1c89eaa1c25160695e514cc1bf3aa4c79b52e0141d95d9e81b05b1a63c0c" name="a6858b1c89eaa1c25160695e514cc1bf3aa4c79b52e0141d95d9e81b05b1a63c0c"></a>RS_Empty_Contour&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6858b1c89eaa1c25160695e514cc1bf3a004ca72a046fcb8f36073be00c29e514" name="a6858b1c89eaa1c25160695e514cc1bf3a004ca72a046fcb8f36073be00c29e514"></a>RS_Bad_Domain&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6858b1c89eaa1c25160695e514cc1bf3ac0f6a0a61d3c378df91815d4c9652531" name="a6858b1c89eaa1c25160695e514cc1bf3ac0f6a0a61d3c378df91815d4c9652531"></a>RS_Bad_Nb_Sides&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6858b1c89eaa1c25160695e514cc1bf3aef7bceec072db0250fdfe89ce429afca" name="a6858b1c89eaa1c25160695e514cc1bf3aef7bceec072db0250fdfe89ce429afca"></a>RS_Bad_Count&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6858b1c89eaa1c25160695e514cc1bf3ab831b5806787092ae247da9eff43cc62" name="a6858b1c89eaa1c25160695e514cc1bf3ab831b5806787092ae247da9eff43cc62"></a>RS_Entities_Not_Touching&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6858b1c89eaa1c25160695e514cc1bf3a81d8fc65a2af4a9f6d41c71aaf531842" name="a6858b1c89eaa1c25160695e514cc1bf3a81d8fc65a2af4a9f6d41c71aaf531842"></a>RS_Internal_Error&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6858b1c89eaa1c25160695e514cc1bf3ab49e5b84cd4dfb01f8744e16197b4351" name="a6858b1c89eaa1c25160695e514cc1bf3ab49e5b84cd4dfb01f8744e16197b4351"></a>RS_Invalid_Object&#160;</td><td class="fielddoc"></td></tr>
